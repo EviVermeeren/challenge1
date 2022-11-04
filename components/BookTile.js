@@ -1,6 +1,7 @@
-import { StyleSheet, Text, View, TouchableWithoutFeedback } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 
 const BookTile = (props) => {
+
     return (
         <View style={styles.bookoverview}>
             <Text style={styles.bookauthor}>van {props.author}</Text>
@@ -21,15 +22,18 @@ bookoverview: {
 
   bookauthor: {
     fontSize: 18,
+    fontFamily: 'MaliExtraLight',
   }, 
   
   description: {
     marginTop: 15,
     marginRight: 35,
+    fontFamily: 'VarelaRoundRegular',
   }, 
 
   isbn: {
     marginTop: 15,
+    fontFamily: 'VarelaRoundRegular',
   }, 
 
 });
